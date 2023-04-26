@@ -1,0 +1,18 @@
+GET http://localhost:3000/blogs
+
+###
+#Post blog
+
+POST http://localhost:3000/blog
+Content-type: application/json
+
+{
+    "title":"Nodejs",
+    "content" :"Nodejs is a Server side language use to communicate with database",
+    "author":"Mubarak"
+}
+
+###
+
+#Get Single Blog
+GET http://localhost:3000/blog/6448b457f5a56b8634de0520
